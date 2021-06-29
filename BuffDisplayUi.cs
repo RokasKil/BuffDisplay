@@ -56,7 +56,7 @@ namespace BuffDisplay
 					{
 						
 						float lighting = Main.LocalPlayer.detectCreature ? 1f : Math.Max(Math.Min(Lighting.Brightness((int)(Main.screenPosition.X + onScreenPosition.X + BuffDisplayConfig.Instance.IconSize / 2) / 16, (int)(Main.screenPosition.Y + onScreenPosition.Y + BuffDisplayConfig.Instance.IconSize / 2) / 16), 1.0f), 0.0f);
-						BuffDisplay.Instance?.Logger.Info($"Drawing with {lighting}");
+						//BuffDisplay.Instance?.Logger.Info($"Drawing with {lighting}");
 
 						spriteBatch.Draw(Main.buffTexture[npc.buffType[j]], new Rectangle((int)onScreenPosition.X, (int)onScreenPosition.Y, BuffDisplayConfig.Instance.IconSize, BuffDisplayConfig.Instance.IconSize), new Color(lighting, lighting, lighting, BuffDisplayConfig.Instance.Transparency));
 						onScreenPosition.X += BuffDisplayConfig.Instance.IconSize;
