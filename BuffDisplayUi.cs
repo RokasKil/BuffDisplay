@@ -16,15 +16,11 @@ namespace BuffDisplay
 {
     class BuffDisplayUi : UIState
     {
-		private UIElement area;
 		
 		public override void OnInitialize()
 		{
-			area = new UIElement();
-			area.Width.Set(0f, 1f); // idk if you actually need to do this
-			area.Height.Set(0f, 1f);
-			Append(area);
 		}
+
 		public override void Draw(SpriteBatch spriteBatch)
 		{
 			base.Draw(spriteBatch);
@@ -63,7 +59,6 @@ namespace BuffDisplay
 					}
 				}
 			}
-
 		}
 
 		private Rectangle getBuffRect(NPC npc)

@@ -43,7 +43,7 @@ namespace BuffDisplay
 						userInterface.Draw(Main.spriteBatch, new GameTime());
 						return true;
 					},
-					InterfaceScaleType.UI)
+					InterfaceScaleType.Game)
 				);
 			}
 		}
