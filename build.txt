@@ -1,0 +1,4 @@
+displayName = Buff Display
+author = MFanatik
+version = 1.0
+side = Client

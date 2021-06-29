@@ -1,0 +1,3 @@
+This mods displays debuffs and buffs above npcs.
+Although not all mods apply debuffs the vanilla terraria way, so in some cases they will not show up.
+For example a lot of calamity's debuffs work this way.
